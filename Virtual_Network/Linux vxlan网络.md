@@ -10,8 +10,6 @@ VXLAN 提供与 VLAN 相同的以太网第 2 层网络服务，但具有更高�
 - 更高的可扩展性。服务器虚拟化和云计算架构大大增加了对数据中心中隔离的第 2 层网络的需求。VLAN 规范使用 12 位 VLAN ID 来标识第 2 层网络，因此无法扩展到 4094 VLAN 以外。当需要数千个隔离的第 2 层网络时，该数字可能不足。24 位 VNI 可在同一管理域中容纳多达 1600 万个 VXLAN 段。
 - 更高的灵活性。由于 VXLAN 在第 3 层数据包上传送第 2 层数据框，因此 VXLAN 将 L2 网络扩展到数据中心的不同部分和地理上分离的数据中心。托管在数据中心的不同部分和不同数据中心但属于同一 VXLAN 的应用程序将显示为一个连续网络。
 
-https://cizixs.com/2017/09/28/linux-vxlan/
-
 
 
 # 点对点
@@ -31,3 +29,7 @@ https://cizixs.com/2017/09/28/linux-vxlan/
 
 
 # ARP
+
+# 附件
+https://cizixs.com/2017/09/28/linux-vxlan/
+https://docs.citrix.com/zh-cn/citrix-adc/current-release/networking/vxlans.html
